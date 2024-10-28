@@ -1,0 +1,83 @@
+{
+    "":" ",
+    "undefined":" ",
+
+    "firstname": "Lytvynovsky",
+    "lastname": "Volodymyr",
+    "posada": "Front-End Developer",
+    "adress": "Ukrain, Kiyv",
+
+    "summary": "Front-End Developer with over 6 years of experience in creating websites, developing applications and services, CRM systems, and analytical reports. Proficient in Full-Stack development, skilled in close collaboration with backend to integration and optimal performance of web applications.",
+
+
+    "skills": "Key Skills",
+    "exp": "Professional Experiance",
+    "port": "Portfolio examples",
+
+    "1": "Programming Languages",
+    "2": "Frontend Frameworks",
+    "3": "Styling",
+    "4": "UI Libraries",
+    "5": "Data Visualization",
+    "6": "Build Tools",
+    "7": "Version Control",
+    "8": "API Integration",
+    "9": "Backend",
+    "10": "Databases",
+    "11": "Testing",
+    "12": "Tools",
+
+
+    "add": "Additional skills",
+
+    "add1": "Implementation of server-side rendering",
+    "add2": "Version control systems and CI/CD pipeline",
+    "add3": "Search Engine Optimization",
+    "add4": "UI/UX Interface Design",
+    "add5": "Responsive and cross-browser web applications",
+    "add6": "Application testing",
+    "add7": "Сode reviews",
+    "add8": "Clean Code and SOLID principles",
+    "add9": "Agile/Scrum methodology",
+    "add10": "Сonducting conferences",
+
+
+    
+    "job1": "Regional Gas Company",
+    "job11": "Lead Frontend Developer",
+    "job111": "06/2020 - Present",
+    "job1111": "Team developing marketplace. Creating online stores, CRM system, and modular  libraries.",
+
+    "job2": "Invest-Сom",
+    "job22": "Frontend Developer",
+    "job222": "05/2017 - 05/2020",
+    "job2222": "Development applications and services. Participate in the development of the CRM system",
+
+    "job3": "Y-Contract",
+    "job33": "Frontend Developer",
+    "job333": "02/2015 - 03/2017",
+    "job3333": "Design a responsive layout for the website, optimization and expansion of code functionality, SPA",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "end": ""
+}
