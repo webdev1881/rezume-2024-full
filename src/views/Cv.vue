@@ -285,7 +285,7 @@ export default {
 
 .header {
   width: 100%;
-  // max-width: 960px;
+  max-width: 960px;
   // min-width: 460px;
   display: flex;
   justify-content: center;
