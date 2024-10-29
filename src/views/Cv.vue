@@ -81,10 +81,7 @@
                   Vue.js 2/3, Nuxt.js 2/3, React.js, NextJS, Quasar
                 </div>
               </div>
-              <div class="skil">
-                <li class="nam">{{ "3" | localize }}</li>
-                <div class="val">HTML5, CSS3, SASS/SCSS | PUG, Stylus</div>
-              </div>
+              
               <div class="skil">
                 <li class="nam">{{ "4" | localize }}</li>
                 <div class="val">Element UI, Tailwind, Bootstrap</div>
@@ -118,6 +115,10 @@
               <div class="skil">
                 <li class="nam">{{ "12" | localize }}</li>
                 <div class="val">Figma, Swagger, Postman</div>
+              </div>
+              <div class="skil">
+                <li class="nam">{{ "3" | localize }}</li>
+                <div class="val">HTML5, CSS3, SASS/SCSS | PUG, Stylus</div>
               </div>
               <div class="skil">
                 <li class="nam">{{ "5" | localize }}</li>
@@ -197,6 +198,15 @@
             </a>
             
           </div>
+
+          <div class="social">
+            <a href="https://t.me/VolodymyrLytv" target="_blank"><div class="item tel"></div></a>
+            <a href="https://linkedin.com/in/volodymyr-lytvynovsky" target="_blank"><div class="item lin"></div></a>
+            <a href="https://www.facebook.com/litvinovskiyv" target="_blank"><div class="item fac"></div></a>
+          </div>
+
+
+
         </div>
       </div>
     </div>
@@ -230,6 +240,31 @@ export default {
 
 
 <style lang='scss' scoped>
+
+.social {
+  padding-bottom: 55px;
+  display: flex;
+  .item {
+    width: 45px;
+    height: 45px;
+    background-color: var(--prim);
+    mask-size: cover !important;
+    margin-right: 25px;
+  }
+  .tel {
+    mask: url(@/assets/svg/tel.svg) no-repeat center;
+  }
+  .lin {
+    mask: url(@/assets/svg/lin.svg) no-repeat center;
+  }
+  .fac {
+    mask: url(@/assets/svg/fac3.svg) no-repeat center;
+  }
+  
+}
+
+
+
 .container {
   width: 100%;
   height: 100%;
@@ -250,11 +285,11 @@ export default {
 
 .header {
   width: 100%;
-  max-width: 960px;
+  // max-width: 960px;
   // min-width: 460px;
   display: flex;
   justify-content: center;
-  margin: 29px auto 25px;
+  margin: 15px auto 25px;
   // background-color: var(--prim);
   background: linear-gradient(90deg, rgba(29,38,54,1) 35%, black 100%);
   padding: 12px 0;
@@ -311,8 +346,8 @@ export default {
 .summary {
   text-align: justify;
   // font-size: 15px;
-  font-style: italic;
-  font-weight: 600;
+  // font-style: italic;
+  // font-weight: 600;
 }
 .block {
   margin-top: 30px;
@@ -329,7 +364,7 @@ export default {
     .line {
       width: 100%;
       height: 3px;
-      background-color: var(--prim);;
+      background-color: var(--prim);
       margin-left: 10px;
     }
   }
@@ -368,7 +403,8 @@ export default {
 }
 
 .port {
-  padding-bottom: 90px;
+  // padding-bottom: 90px;
+  margin-bottom: 30px;
 }
 
 .port_details {
@@ -383,6 +419,7 @@ export default {
   align-items: center;
   .blank {
     margin-left: 5px;
+    margin-top: 3px;
     width: 15px;
     height: 15px;
     object-fit: cover;
@@ -404,7 +441,8 @@ export default {
 }
 
 .active {
-  font-weight: 600 !important;
+  // font-weight: 600 !important;
+  color: white !important;
 }
 
 .lang {
@@ -419,7 +457,7 @@ export default {
     border: none;
     padding: 0 2px;
     background: inherit;
-    color: white;
+    color: #8387a1;
     cursor: pointer;
     transition: 0.2s;
     text-decoration: none;
@@ -443,5 +481,11 @@ export default {
   .experiance {
     flex-direction: column;
   }
+}
+@media screen and (max-width: 468px) {
+  .lang {
+    // right: 50px;
+  }
+
 }
 </style>
