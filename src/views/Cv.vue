@@ -181,29 +181,17 @@
 
           <div class="block port">
             <div class="title">
-              <div class="name">{{ "port" | localize }}</div>
+              <div class="social">
+                <a href="https://t.me/VolodymyrLytv" target="_blank"><div class="item tel"></div></a>
+                <a href="https://linkedin.com/in/volodymyr-lytvynovsky" target="_blank"><div class="item lin"></div></a>
+                <a href="https://www.facebook.com/" target="_blank"><div class="item fac"></div></a>
+              </div>
               <div class="line"></div>
             </div>
 
-            <a
-              class="port_details" href="https://market-ua.netlify.app" target="_blank" >
-              https://market-ua.mock.app
-              <img src="@/assets/svg/tab.png" alt="" class="blank">
-            </a>
-
-            <a
-              class="port_details" href="https://104.ua" target="_blank" >
-              104.ua Corporate page
-              <img src="@/assets/svg/tab.png" alt="" class="blank">
-            </a>
             
           </div>
 
-          <div class="social">
-            <a href="https://t.me/VolodymyrLytv" target="_blank"><div class="item tel"></div></a>
-            <a href="https://linkedin.com/in/volodymyr-lytvynovsky" target="_blank"><div class="item lin"></div></a>
-            <a href="https://www.facebook.com/litvinovskiyv" target="_blank"><div class="item fac"></div></a>
-          </div>
 
 
 
@@ -242,14 +230,14 @@ export default {
 <style lang='scss' scoped>
 
 .social {
-  padding-bottom: 55px;
+
   display: flex;
   .item {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     background-color: var(--prim);
     mask-size: cover !important;
-    margin-right: 25px;
+    margin-right: 15px;
   }
   .tel {
     mask: url(@/assets/svg/tel.svg) no-repeat center;
