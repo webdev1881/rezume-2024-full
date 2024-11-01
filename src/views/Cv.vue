@@ -134,13 +134,35 @@
             </div>
 
             <div class="job-title">
-              {{ "job11" | localize }}
+              {{ "job1" | localize }}
               <span class="date">{{ "job111" | localize }}</span>
             </div>
-            <div class="job-details">{{ "job1" | localize }}</div>
-            <li class="jb">{{ "job1111" | localize }}</li>
+            <div class="job-details">{{ "job11" | localize }}</div>
+            <li class="jb">{{ "job11111" | localize }}</li>
+            <li class="j_b"> -  {{ "job111111" | localize }}</li>
+            <li class="j_b"> -  {{ "job1111111" | localize }}</li>
+            <li class="j_b"> -  {{ "job11111111" | localize }}</li>
+            <li class="j_b j_b_m"> -  {{ "job111111111" | localize }}</li>
+
+            <li class="jb">{{ "job01" | localize }}</li>
+            <li class="j_b"> -  {{ "job011" | localize }}</li>
+            <li class="j_b"> -  {{ "job0111" | localize }}</li>
+            <li class="j_b"> -  {{ "job01111" | localize }}</li>
 
             <div class="job-title">
+              {{ "job2" | localize }}
+              <span class="date">{{ "job222" | localize }}</span>
+            </div>
+            <div class="job-details">{{ "job22" | localize }}</div>
+            <li class="jb">{{ "job2222" | localize }}</li>
+            <li class="j_b"> -  {{ "job22222" | localize }}</li>
+            <li class="j_b"> -  {{ "job222222" | localize }}</li>
+            <li class="j_b"> -  {{ "job2222222" | localize }}</li>
+
+
+
+
+            <!-- <div class="job-title">
               {{ "job22" | localize }}
               <span class="date">{{ "job222" | localize }}</span>
             </div>
@@ -152,7 +174,9 @@
               <span class="date">{{ "job333" | localize }}</span>
             </div>
             <div class="job-details">{{ "job3" | localize }}</div>
-            <li class="jb">{{ "job3333" | localize }}</li>
+            <li class="jb">{{ "job3333" | localize }}</li> -->
+
+
           </div>
 
           <div class="block">
@@ -270,6 +294,13 @@ export default {
   position: relative;
   // margin-bottom: 140px;
 }
+.j_b {
+  list-style: none;
+  margin-left: 14px;
+}
+.j_b_m {
+  margin-bottom: 7px;
+}
 
 .header {
   width: 100%;
@@ -368,7 +399,7 @@ export default {
     padding: 10px 0;
     // text-wrap: nowrap;
     .nam {
-      min-width: 210px;
+      min-width: 215px;
       margin-right: 25px;
       font-weight: 600;
     }

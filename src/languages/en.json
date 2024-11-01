@@ -7,7 +7,7 @@
     "posada": "Front-End Developer",
     "adress": "Ukrain, Kiyv",
 
-    "summary": "Front-End Developer with 6+ years of experience in creating web applications, services, CRM systems, and building frontend architectures. Proficient in Full-Stack development, skilled in close collaboration with backend to integration and optimal performance of web applications.",
+    "summary": "Front-End Developer with over 6+ years of experience in developing diverse projects: marketplaces and e-commerce stores, CRM systems, and business performance monitoring platforms. Experienced in full-stack development and effective back-end collaboration.",
 
 
     "skills": "Key Skills",
@@ -44,19 +44,33 @@
 
     
     "job1": "Regional Gas Company",
-    "job11": "Lead Frontend Developer",
+    "job11": "Frontend Developer",
     "job111": "06/2020 - Present",
     "job1111": "Team developing marketplace. Creating online stores, CRM system, and modular  libraries.",
+
+    "job11111": "Development of B2C marketplace platform",
+    "job111111": "Product management and vendor balance administration",
+    "job1111111": "Integration with payment systems and delivery services",
+    "job11111111": "Real-time inventory tracking system",
+    "job111111111": "Analytics reports for merchants",
+
+    "job01": "E-commerce platforms maintenance",
+    "job011": "Performance optimization and feature enhancement",
+    "job0111": "Integration with third-party APIs",
+    "job01111": "Responsive design implementation",
+
+
 
     "job2": "Invest-Сom",
     "job22": "Frontend Developer",
     "job222": "05/2017 - 05/2020",
-    "job2222": "Development applications and services. Participate in the development of the CRM system",
+    "job2222": "Development of the CRM system",
 
-    "job3": "Y-Contract",
-    "job33": "Frontend Developer",
-    "job333": "02/2015 - 03/2017",
-    "job3333": "Design a responsive layout for the website, optimization and expansion of code functionality, SPA",
+    "job22222": "Customer data management and analytics",
+    "job222222": "KPI monitoring dashboards",
+    "job2222222": "Business process automation",
+
+    
 
 
 
