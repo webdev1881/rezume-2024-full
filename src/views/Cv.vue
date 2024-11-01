@@ -70,26 +70,39 @@
             </div>
 
             <div class="skills">
+
               <div class="skil">
                 <li class="nam">{{ "1" | localize }}</li>
                 <div class="val">JavaScript, TypeScript</div>
               </div>
 
+              
+
               <div class="skil">
                 <li class="nam">{{ "2" | localize }}</li>
                 <div class="val">
-                  Vue.js 2/3, Nuxt.js 2/3, React.js, NextJS, Quasar
+                  Vue 2/3, Nuxt 2/3, React, Next
                 </div>
-              </div>
-              
-              <div class="skil">
-                <li class="nam">{{ "4" | localize }}</li>
-                <div class="val">Element UI, Tailwind, Bootstrap</div>
               </div>
 
               <div class="skil">
+                <li class="nam">{{ "9" | localize }}</li>
+                <div class="val">Node | Express, Nest</div>
+              </div>
+
+              <div class="skil">
+                <li class="nam">{{ "10" | localize }}</li>
+                <div class="val">MongoDB, Firebase, PosgreSQL</div>
+              </div>
+              
+              <!-- <div class="skil">
+                <li class="nam">{{ "4" | localize }}</li>
+                <div class="val">Element UI, Tailwind, Bootstrap, Quasar</div>
+              </div> -->
+
+              <div class="skil">
                 <li class="nam">{{ "6" | localize }}</li>
-                <div class="val">Vite, Webpack, Gulp, npm</div>
+                <div class="val">Vite, Webpack, Gulp | npm</div>
               </div>
 
               <div class="skil">
@@ -98,19 +111,25 @@
               </div>
               <div class="skil">
                 <li class="nam">{{ "8" | localize }}</li>
-                <div class="val">RESTful, GraphQL</div>
+                <div class="val">RESTful, GraphQL, WebSocket</div>
               </div>
+
               <div class="skil">
+                <li class="nam">{{ "4" | localize }}</li>
+                <div class="val">Element UI, Tailwind, Bootstrap, Quasar</div>
+              </div>
+
+              <!-- <div class="skil">
                 <li class="nam">{{ "9" | localize }}</li>
                 <div class="val">Node, Express, Nest</div>
-              </div>
-              <div class="skil">
+              </div> -->
+              <!-- <div class="skil">
                 <li class="nam">{{ "10" | localize }}</li>
                 <div class="val">MongoDB, Firebase, PosgreSQL</div>
-              </div>
+              </div> -->
               <div class="skil">
                 <li class="nam">{{ "11" | localize }}</li>
-                <div class="val">Jest, Cypress, VUE Testing Library</div>
+                <div class="val">Jest, Cypress, VUE/REACT Testing Library</div>
               </div>
               <div class="skil">
                 <li class="nam">{{ "12" | localize }}</li>
@@ -207,7 +226,7 @@
             <div class="title">
               <div class="social">
                 <a href="https://t.me/VolodymyrLytv" target="_blank"><div class="item tel"></div></a>
-                <a href="https://linkedin.com/in/volodymyr-lytvynovsky" target="_blank"><div class="item lin"></div></a>
+                <a href="https://linkedin.com/in/" target="_blank"><div class="item lin"></div></a>
                 <a href="https://www.facebook.com/" target="_blank"><div class="item fac"></div></a>
               </div>
               <div class="line"></div>
