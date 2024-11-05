@@ -10,6 +10,11 @@ const routes = [
     name: 'home',
     component: Cv,
   },
+  {
+    path: '/ua',
+    name: 'ua',
+    component: Cv,
+  },
 
 ]
 

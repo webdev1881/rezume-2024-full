@@ -24,12 +24,14 @@
           </div>
 
           <div class="lang">
+            <!-- <router-link :to="'/'" replace>Рус</router-link> -->
             <input
               v-model="locate"
               @click="changeLanguage"
               type="radio"
               value="en"
               id="en"
+              :disabled="locate === 'en'"
             />
             <label
               class="lang__item"
@@ -39,20 +41,26 @@
               EN
             </label>
             <span class="lang__separator">|</span>
-            <input
-              v-model="locate"
-              @click="changeLanguage"
-              type="radio"
-              value="ua"
-              id="ua"
-            />
-            <label
-              class="lang__item"
-              for="ua"
-              :class="[locate === 'ua' ? 'active' : null]"
-            >
-              UA
-            </label>
+
+            <!-- <router-link :to="'/ua'" > -->
+
+              <input
+                v-model="locate"
+                @click="changeLanguage"
+                type="radio"
+                value="ua"
+                id="ua"
+                :disabled="locate === 'ua'"
+              />
+              <label
+                class="lang__item"
+                for="ua"
+                :class="[locate === 'ua' ? 'active' : null]"
+              >
+                UA
+              </label>
+            <!-- </router-link> -->
+
           </div>
         </div>
       </div>
@@ -258,11 +266,25 @@ export default {
     changeLanguage(e) {
       let event = e.target.value;
       this.$store.dispatch("CHANGE_LANGUAGE", event);
+
+      console.log( this.locate )
+      if (event === "ua") {
+        this.$router.push(`/ua`)
+      } else {
+        this.$router.push(`/`)
+      }
     },
   },
   computed: { ...mapGetters(["locale"]) },
 
   async mounted() {
+    console.log( this.$route.name )
+
+    // if ( this.$route.name === "ua" ) {
+    //   this.locate = "ua"
+    //   this.$store.dispatch("CHANGE_LANGUAGE", "ua");
+    // }
+
     this.$store.dispatch("LOAD_LANGUAGE");
     this.locate = this.$store.getters.locale;
   },
