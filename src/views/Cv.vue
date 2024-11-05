@@ -278,12 +278,12 @@ export default {
   computed: { ...mapGetters(["locale"]) },
 
   async mounted() {
-    console.log('ROUTE-2: '+ this.$route.name )
+    console.log('ROUTE-3: '+ this.$route.name )
 
-    // if ( this.$route.name === "ua" ) {
-    //   this.locate = "ua"
-    //   this.$store.dispatch("CHANGE_LANGUAGE", "ua");
-    // }
+    if ( this.$route.name === "ua" ) {
+      this.locate = "ua"
+      this.$store.dispatch("CHANGE_LANGUAGE", "ua");
+    }
 
     this.$store.dispatch("LOAD_LANGUAGE");
     this.locate = this.$store.getters.locale;
