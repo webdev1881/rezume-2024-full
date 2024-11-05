@@ -16,9 +16,8 @@
             <div class="adress">
               {{ "adress" | localize }}
             </div>
-            <div class="contact">
-              {{ " +380 (99) 15 16 010  | lytvynovsky.volodymyr@gmail.com" }}
-            </div>
+            <div class="contact">{{ " +380 (99) 15 16 010 " }}</div>
+            <div class="contact">{{ "lytvynovsky.volodymyr@gmail.com" }}</div>
           </div>
 
           <div class="lang">
@@ -59,9 +58,8 @@
     <div class="main">
       <div class="container">
         <div class="wrap">
-          <div class="summary">
-            {{ "summary" | localize }}
-          </div>
+          <div class="summary"> {{ "summary" | localize }} </div>
+          <div class="summary"> {{ "summary2" | localize }} </div>
 
           <div class="block">
             <div class="title">
@@ -383,6 +381,8 @@ export default {
 }
 .summary {
   text-align: justify;
+  margin-bottom: 5px;
+  // text-indent: 12px;
   // font-size: 15px;
   // font-style: italic;
   // font-weight: 600;
