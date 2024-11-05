@@ -278,7 +278,7 @@ export default {
   computed: { ...mapGetters(["locale"]) },
 
   async mounted() {
-    console.log('ROUTE: '+ this.$route.name )
+    console.log('ROUTE-2: '+ this.$route.name )
 
     // if ( this.$route.name === "ua" ) {
     //   this.locate = "ua"
