@@ -16,8 +16,11 @@
             <div class="adress">
               {{ "adress" | localize }}
             </div>
-            <div class="contact">{{ " +380 (99) 15 16 010 " }}</div>
-            <div class="contact">{{ "lytvynovsky.volodymyr@gmail.com" }}</div>
+            <div class="cont">
+              <div class="contact">{{ " +380 (99) 15 16 010 " }}</div>
+              <div class="contact">{{ "lytvynovsky.volodymyr@gmail.com" }}</div>
+              <div class="contact2">{{ " +380 (99) 15 16 010 &nbsp | &nbsp lytvynovsky.volodymyr@gmail.com" }}</div>
+            </div>
           </div>
 
           <div class="lang">
@@ -307,7 +310,7 @@ export default {
 .cv {
   // width: 100vw;
   // margin: 0 auto;
-  min-width: 460px;
+  // min-width: 460px;
   position: relative;
   // margin-bottom: 140px;
 }
@@ -502,14 +505,23 @@ export default {
   }
 }
 
+.contact {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .header {
     margin: 0px auto 25px;
   }
   .header--content {
+    padding-left: 15px;
     .name {
       width: 100%;
       margin-bottom: 15px;
+      .title {
+        font-size: 1.15rem;
+
+      }
       .posada {
         font-size: 16px;
         margin-top: 0px;
@@ -519,9 +531,16 @@ export default {
   .experiance {
     flex-direction: column;
   }
+  .contact {
+    display: block;
+  }
+  .contact2 {
+    display: none;
+  }
 }
 @media screen and (max-width: 468px) {
   .lang {
+    top: auto;
     // right: 50px;
   }
 
