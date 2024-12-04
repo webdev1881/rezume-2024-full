@@ -217,7 +217,7 @@
               <div class="ex1">
                 <div class="ex_item">- {{ "add1" | localize }}</div>
                 <div class="ex_item">- {{ "add2" | localize }}</div>
-                <div class="ex_item">- {{ "add3" | localize }}</div>
+                <!-- <div class="ex_item">- {{ "add3" | localize }}</div> -->
                 <div class="ex_item">- {{ "add4" | localize }}</div>
                 <div class="ex_item">- {{ "add5" | localize }}</div>
               </div>
@@ -226,7 +226,7 @@
                 <div class="ex_item">- {{ "add7" | localize }}</div>
                 <div class="ex_item">- {{ "add8" | localize }}</div>
                 <div class="ex_item">- {{ "add9" | localize }}</div>
-                <div class="ex_item">- {{ "add10" | localize }}</div>
+                <!-- <div class="ex_item">- {{ "add10" | localize }}</div> -->
               </div>
             </div>
           </div>
